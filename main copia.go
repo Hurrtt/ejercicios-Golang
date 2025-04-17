@@ -39,7 +39,7 @@ func division() {
 
 }
 
-func calculadora() {
+func main() {
 	fmt.Println("----Bienvenido a la calculadora----")
 	var opc int
 

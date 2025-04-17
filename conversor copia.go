@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func conversor() {
+func main() {
 	fmt.Print("-----Bienvenido al conversor de unidades-----")
 	fmt.Println("\nElija una opcion: \n1-De metros a centrimetros \n2-De centrimetros a metros")
 	var opc float32

@@ -7,12 +7,11 @@ import (
 
 func juego() {
 	secret := rand.Intn(100)
-	pista := rand.Intn(20)
+	
 
 	var number int
 
 	for {
-		fmt.Printf("El numero secreto esta entre %d y %d", secret-pista, secret+pista)
 		fmt.Print("Adivina el número: ")
 		fmt.Scanln(&number)
 
